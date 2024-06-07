@@ -1,0 +1,1418 @@
+repo_name: minhnguyen311/evershop
+report_id: 65cee5f996f2c197a3e918a38eabb66f
+version: 0.1
+repo_type: Public
+timestamp: '2024-06-07T13:20:46+00:00'
+requested_by: treoden
+provider: github
+branch: main
+detected_tools_count: 102
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/minhnguyen311/evershop
+  detection_source: Repo Metadata
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/packages/evershop/package.json
+  detection_source: packages/evershop/package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2021-12-03 13:48:05.000000000 Z
+- name: Autoprefixer
+  description: PostCSS plugin to parse CSS and add vendor prefixes to CSS rules
+  website_url: https://github.com/postcss/autoprefixer
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/2202/72d087642cfce6fef6f2dabec5bf49e8_400x400.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/packages/evershop/package.json
+  detection_source: packages/evershop/package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2023-02-11 17:35:07.000000000 Z
+- name: ExpressJS
+  description: Sinatra inspired web development framework for node.js -- insanely
+    fast, flexible, and simple
+  website_url: http://expressjs.com/
+  version: 4.18.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/1163/hashtag.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/package-lock.json
+  detection_source: packages/evershop/package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2023-08-25 17:02:24.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  version: 18.0.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/Dockerfile
+  detection_source: Dockerfile
+  last_updated_by: The Nguyen
+  last_updated_on: 2023-09-24 17:05:26.000000000 Z
+- name: PostCSS
+  description: Transform CSS with JS plugins
+  website_url: https://github.com/postcss/postcss
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/3339/rlFcjEdI.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/packages/evershop/package.json
+  detection_source: packages/evershop/package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2023-06-19 15:42:01.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 17.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/package-lock.json
+  detection_source: packages/evershop/package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2023-06-19 15:42:01.000000000 Z
+- name: Recharts
+  description: Redefined chart library built with React and D3
+  website_url: http://recharts.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Charting Libraries
+  image_url: https://img.stackshare.io/service/5608/13690587.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/packages/evershop/package.json
+  detection_source: packages/evershop/package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2021-12-03 13:48:05.000000000 Z
+- name: RxJS
+  description: The Reactive Extensions for JavaScript
+  website_url: http://reactivex.io/rxjs/
+  version: 7.5.5
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Concurrency Frameworks
+  image_url: https://img.stackshare.io/service/1796/984368.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: "="
+  last_updated_on: 2021-05-06 09:58:23.000000000 Z
+- name: Sass
+  description: Syntactically Awesome Style Sheets
+  website_url: http://sass-lang.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/1171/jCR2zNJV.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/packages/evershop/package.json
+  detection_source: packages/evershop/package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2021-12-03 13:48:05.000000000 Z
+- name: Tailwind CSS
+  description: A utility-first CSS framework for rapid UI development
+  website_url: https://tailwindcss.com
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/8158/default_660b7c41c3ba489cb581eec89c04655404258c19.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2022-10-27 05:26:05.000000000 Z
+- name: css-loader
+  description: Helps webpack to collect CSS from all the css files
+  website_url: https://github.com/webpack-contrib/css-loader
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/8074/default_d2b16fd6997fb2e164de645a34f9b8d5a880d999.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/packages/evershop/package.json
+  detection_source: packages/evershop/package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2022-09-06 17:07:00.000000000 Z
+- name: Azure Storage
+  description: Reliable, economical cloud storage for data big and small
+  website_url: http://azure.microsoft.com/en-us/services/storage/
+  open_source: false
+  hosted_saas: true
+  category: Data Stores
+  sub_category: Cloud Storage
+  image_url: https://img.stackshare.io/service/2099/azureStorage.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/packages/azure_file_storage/package.json
+  detection_source: packages/azure_file_storage/package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2023-10-24 11:24:30.000000000 Z
+- name: GraphQL
+  description: A data query language and runtime
+  website_url: http://graphql.org/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Query Languages
+  image_url: https://img.stackshare.io/service/3820/12972006.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/packages/evershop/package.json
+  detection_source: packages/evershop/package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2023-09-15 10:13:56.000000000 Z
+- name: PostgreSQL
+  description: A powerful, open source object-relational database system
+  website_url: http://www.postgresql.org/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: The Nguyen
+  last_updated_on: 2023-10-14 19:11:18.000000000 Z
+- name: Babel
+  description: Use next generation JavaScript, today.
+  website_url: http://babeljs.io/
+  version: 7.20.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JavaScript Compilers
+  image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/package-lock.json
+  detection_source: babel.config.js
+  last_updated_by: The Nguyen
+  last_updated_on: 2022-10-31 00:08:37.000000000 Z
+- name: Cypress
+  description: When testing is easy, developers build better things faster and with
+    confidence.
+  website_url: https://www.cypress.io/
+  version: 9.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/9231/default_66c5c1a197dcd0232e41e4ab6299d119b4e165b3.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2023-08-31 01:53:22.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/minhnguyen311/evershop
+  detection_source: Repo Metadata
+- name: Dotenv
+  description: Loads environment variables from .env for Nodejs projects
+  website_url: https://github.com/motdotla/dotenv
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Server Configuration and Automation
+  image_url: https://img.stackshare.io/service/8067/default_90dcb1286af7685c68df319c764b80704df1155b.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/packages/evershop/package.json
+  detection_source: packages/evershop/package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2023-09-24 17:05:26.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: "="
+  last_updated_on: 2021-05-06 09:58:23.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/minhnguyen311/evershop
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/.github/workflows/build.yml
+  detection_source: ".github/workflows/build.yml"
+  last_updated_by: The Nguyen
+  last_updated_on: 2021-11-28 15:47:47.000000000 Z
+- name: Jest
+  description: Painless JavaScript Unit Testing
+  website_url: http://facebook.github.io/jest/
+  version: 27.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/830/jest.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: "="
+  last_updated_on: 2021-05-06 09:58:23.000000000 Z
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/packages/evershop/package.json
+  detection_source: packages/evershop/package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2021-12-03 13:48:05.000000000 Z
+- name: Prettier
+  description: Prettier is an opinionated code formatter.
+  website_url: https://prettier.io/
+  version: 2.8.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2023-02-12 08:45:00.000000000 Z
+- name: Webpack
+  description: A bundler for javascript and friends
+  website_url: http://webpack.js.org
+  version: 5.77.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/1682/IMG_4636.PNG
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2022-08-16 08:27:46.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/packages/evershop/package.json
+  detection_source: packages/evershop/package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2021-12-03 13:48:05.000000000 Z
+- name: Ora
+  description: Agile task management and visual team collaboration, Ora is your team’s
+    command center with kanban, chat and timers!
+  website_url: https://ora.pm/
+  open_source: false
+  hosted_saas: true
+  category: Collaboration
+  sub_category: Project Management
+  image_url: https://img.stackshare.io/service/6925/preview.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/packages/evershop/package.json
+  detection_source: packages/evershop/package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2021-12-03 13:48:05.000000000 Z
+- name: Stripe
+  description: Payments for developers
+  website_url: https://stripe.com
+  open_source: false
+  hosted_saas: true
+  category: Payments
+  sub_category: Payment Services
+  image_url: https://img.stackshare.io/service/97/eW6tXeq3.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/packages/evershop/package.json
+  detection_source: packages/evershop/package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2021-12-03 13:48:05.000000000 Z
+- name: Lodash
+  description: A JavaScript utility library
+  website_url: https://lodash.com
+  version: 4.17.21
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2438/lodash.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/package-lock.json
+  detection_source: packages/evershop/package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2023-02-11 17:35:07.000000000 Z
+- name: Luxon
+  description: Library for working with dates and times in Javascript
+  website_url: https://moment.github.io/luxon/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/10330/no-img-open-source.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/packages/evershop/package.json
+  detection_source: packages/evershop/package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2021-12-03 13:48:05.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/minhnguyen311/evershop
+  detection_source: Repo Metadata
+- name: Winston
+  description: a multi-transport async logging library for node.js
+  website_url: https://github.com/winstonjs/winston
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/6668/9682013.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/packages/evershop/package.json
+  detection_source: packages/evershop/package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2021-12-07 10:09:41.000000000 Z
+- name: axios
+  description: Promise based HTTP client for the browser and node.js
+  website_url: https://github.com/mzabriskie/axios
+  version: 0.26.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/package-lock.json
+  detection_source: packages/evershop/package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2021-12-03 13:48:05.000000000 Z
+- name: chalk
+  description: terminal colors
+  website_url: https://github.com/chalk/chalk
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/8072/13122722.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/packages/create-evershop-app/package.json
+  detection_source: packages/create-evershop-app/package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2022-10-16 10:01:29.000000000 Z
+- name: husky
+  website_url: https://github.com/typicode/husky
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/9527/5502029.jpeg
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2023-08-31 01:53:22.000000000 Z
+- name: sharp
+  description: High performance Node.js image processing
+  package_url: https://www.npmjs.com/sharp
+  version: 0.30.7
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16806/default_31a4e0e11d348225088320f3a5c5ea6fa49c27ad.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/package-lock.json
+  detection_source: packages/evershop/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-08-16 01:48:27.000000000 Z
+  vulnerabilities:
+  - name: sharp vulnerability in libwebp dependency CVE-2023-4863
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-54xq-cgqr-rpm3
+    detected_date: Nov 17
+    severity: high
+    first_patched: 0.32.6
+- name: webpack-dev-middleware
+  description: A development middleware for webpack
+  package_url: https://www.npmjs.com/webpack-dev-middleware
+  version: 5.3.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16020/default_924b66c04aa848a4028c1a5753a23dae0f835f86.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/package-lock.json
+  detection_source: packages/evershop/package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2023-04-26 02:31:26.000000000 Z
+  vulnerabilities:
+  - name: Path traversal in webpack-dev-middleware
+    cve_id: CVE-2024-29180
+    cve_url: https://github.com/advisories/GHSA-wr3j-pwj9-hqq6
+    detected_date: Mar 22
+    severity: high
+    first_patched: 5.3.4
+- name: express
+  description: Fast, unopinionated, minimalist web framework
+  package_url: https://www.npmjs.com/express
+  version: 4.18.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/package-lock.json
+  detection_source: packages/evershop/package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2023-08-25 17:02:24.000000000 Z
+  vulnerabilities:
+  - name: Express.js Open Redirect in malformed URLs
+    cve_id: CVE-2024-29041
+    cve_url: https://github.com/advisories/GHSA-rv95-896h-c2vc
+    detected_date: Mar 26
+    severity: moderate
+    first_patched: 4.19.2
+- name: semver
+  description: The semantic version parser used by npm
+  package_url: https://www.npmjs.com/semver
+  version: 7.3.7
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18809/default_dad3dc9dde4b82dc2a7bd32aa091165887abe57b.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/package-lock.json
+  detection_source: packages/create-evershop-app/package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2022-12-21 01:46:44.000000000 Z
+  vulnerabilities:
+  - name: semver vulnerable to Regular Expression Denial of Service
+    cve_id: CVE-2022-25883
+    cve_url: https://github.com/advisories/GHSA-c2qf-rxjj-qqgw
+    detected_date: Jun 23
+    severity: moderate
+    first_patched: 7.5.2
+- name: "@babel/cli"
+  description: Babel command line
+  package_url: https://www.npmjs.com/@babel/cli
+  version: 7.17.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15848/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2022-06-30 06:02:19.000000000 Z
+- name: "@babel/core"
+  description: Babel compiler core
+  package_url: https://www.npmjs.com/@babel/core
+  version: 7.20.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15810/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2022-06-30 06:02:19.000000000 Z
+- name: "@babel/node"
+  description: Babel command line
+  package_url: https://www.npmjs.com/@babel/node
+  version: 7.17.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16153/default_ac04a744873b460c4ef30a7450ed0c83223640ab.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2022-06-30 06:02:19.000000000 Z
+- name: "@babel/preset-env"
+  description: A Babel preset for each environment
+  package_url: https://www.npmjs.com/@babel/preset-env
+  version: 7.18.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15819/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/package-lock.json
+  detection_source: packages/evershop/package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2023-08-25 17:02:24.000000000 Z
+- name: "@babel/preset-react"
+  description: Babel preset for all React plugins
+  package_url: https://www.npmjs.com/@babel/preset-react
+  version: 7.17.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15890/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/package-lock.json
+  detection_source: packages/evershop/package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2023-08-25 17:02:24.000000000 Z
+- name: ajv
+  description: Another JSON Schema Validator
+  package_url: https://www.npmjs.com/ajv
+  version: 6.12.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16186/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/package-lock.json
+  detection_source: packages/evershop/package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2021-12-03 13:48:05.000000000 Z
+- name: babel-jest
+  description: Jest plugin to use babel for transformation
+  package_url: https://www.npmjs.com/babel-jest
+  version: 28.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15839/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2022-11-23 10:10:51.000000000 Z
+- name: babel-loader
+  description: Babel module loader for webpack
+  package_url: https://www.npmjs.com/babel-loader
+  version: 8.2.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15800/default_4acafe585186b4157fa23322ae7ca89e24b5cdef.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/package-lock.json
+  detection_source: packages/evershop/package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2023-01-11 16:33:54.000000000 Z
+- name: bcryptjs
+  description: Optimized bcrypt in plain JavaScript with zero dependencies
+  package_url: https://www.npmjs.com/bcryptjs
+  version: 2.4.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16857/default_627f05e6a07ce29fc9f119417270f38e8aa5c5e2.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/package-lock.json
+  detection_source: packages/evershop/package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2023-02-21 16:41:24.000000000 Z
+- name: body-parser
+  description: Node.js body parsing middleware
+  package_url: https://www.npmjs.com/body-parser
+  version: 1.20.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15906/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/package-lock.json
+  detection_source: packages/evershop/package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2023-03-15 15:21:38.000000000 Z
+- name: boxen
+  description: Create boxes in the terminal
+  package_url: https://www.npmjs.com/boxen
+  version: 5.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16617/default_bfa6d5d12cc0af739d6b3d4c69dddc66832b1d34.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/package-lock.json
+  detection_source: packages/create-evershop-app/package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2022-10-16 10:01:29.000000000 Z
+- name: chalk
+  description: Terminal string styling done right
+  package_url: https://www.npmjs.com/chalk
+  version: 4.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15813/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/package-lock.json
+  detection_source: packages/create-evershop-app/package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2022-10-16 10:01:29.000000000 Z
+- name: chokidar
+  description: A neat wrapper around node.js fs.watch / fs.watchFile / fsevents
+  package_url: https://www.npmjs.com/chokidar
+  version: 3.5.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16043/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/package-lock.json
+  detection_source: packages/evershop/package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2022-07-29 00:29:30.000000000 Z
+- name: clean-css
+  description: A well-tested CSS minifier
+  package_url: https://www.npmjs.com/clean-css
+  version: 5.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16486/default_482cf308e8fc087eee8e154f29cc142c834abc51.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/package-lock.json
+  detection_source: packages/evershop/package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2022-10-28 11:52:09.000000000 Z
+- name: commander
+  description: The complete solution for node.js command-line programs
+  package_url: https://www.npmjs.com/commander
+  version: 4.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15829/default_50135978d26eba7c09093ceb23b96d522898e4eb.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/package-lock.json
+  detection_source: packages/create-evershop-app/package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2022-10-16 10:01:29.000000000 Z
+- name: config
+  description: Configuration control for production node deployments
+  package_url: https://www.npmjs.com/config
+  version: 3.3.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16353/default_b5c8f3c8e46d368f74a982d06d7f13291fe651ea.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/package-lock.json
+  detection_source: packages/evershop/package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2021-12-03 13:48:05.000000000 Z
+- name: cookie-parser
+  description: Parse HTTP request cookies
+  package_url: https://www.npmjs.com/cookie-parser
+  version: 1.4.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16136/default_def3edb85d7fbd20200a5cd7d0a1679e31bc8b3d.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/package-lock.json
+  detection_source: packages/evershop/package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2023-03-15 15:21:38.000000000 Z
+- name: cross-spawn
+  description: Cross platform child_process#spawn and child_process#spawnSync
+  package_url: https://www.npmjs.com/cross-spawn
+  version: 7.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16069/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/package-lock.json
+  detection_source: packages/create-evershop-app/package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2022-10-16 11:07:27.000000000 Z
+- name: dayjs
+  description: 2KB immutable date time library alternative to Moment.js with the same
+    modern API
+  package_url: https://www.npmjs.com/dayjs
+  version: 1.11.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16833/default_5c6919c5e02b8e6c83f3a2b23db5b6962e3caca0.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/package-lock.json
+  detection_source: packages/evershop/package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2021-12-03 13:48:05.000000000 Z
+- name: debug
+  description: Small debugging utility
+  package_url: https://www.npmjs.com/debug
+  version: 3.2.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15852/default_a2f722724df977d0f7752839e5d8845ab41f69d5.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/package-lock.json
+  detection_source: packages/evershop/package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2021-12-03 13:48:05.000000000 Z
+- name: enquirer
+  description: Stylish, intuitive and user-friendly prompt system
+  package_url: https://www.npmjs.com/enquirer
+  version: 2.3.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17607/default_78eeaf18342bdd59207e3ddbe161d5d7c0391a23.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/package-lock.json
+  detection_source: packages/evershop/package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2022-01-08 13:33:30.000000000 Z
+- name: eslint-config-airbnb
+  description: Airbnb's ESLint config, following our styleguide
+  package_url: https://www.npmjs.com/eslint-config-airbnb
+  version: 19.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15857/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2023-08-31 01:53:22.000000000 Z
+- name: eslint-config-prettier
+  description: Turns off all rules that are unnecessary or might conflict with Prettier
+  package_url: https://www.npmjs.com/eslint-config-prettier
+  version: 8.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15879/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2023-08-31 01:53:22.000000000 Z
+- name: eslint-plugin-import
+  description: Import with sanity
+  package_url: https://www.npmjs.com/eslint-plugin-import
+  version: 2.28.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15806/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2023-08-31 01:53:22.000000000 Z
+- name: eslint-plugin-jsx-a11y
+  description: Static AST checker for accessibility rules on JSX elements
+  package_url: https://www.npmjs.com/eslint-plugin-jsx-a11y
+  version: 6.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15845/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2023-08-31 01:53:22.000000000 Z
+- name: eslint-plugin-react
+  description: React specific linting rules for ESLint
+  package_url: https://www.npmjs.com/eslint-plugin-react
+  version: 7.30.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15817/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2023-08-31 01:53:22.000000000 Z
+- name: eslint-plugin-react-hooks
+  description: ESLint rules for React Hooks
+  package_url: https://www.npmjs.com/eslint-plugin-react-hooks
+  version: 4.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16149/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2023-08-31 01:53:22.000000000 Z
+- name: express-session
+  description: Simple session middleware for Express
+  package_url: https://www.npmjs.com/express-session
+  version: 1.17.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16239/default_180418c6fa6cdb8f7a3500f84a8fedb884fcb3fa.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/package-lock.json
+  detection_source: packages/evershop/package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2023-10-12 14:59:46.000000000 Z
+- name: flatpickr
+  description: A lightweight, powerful javascript datetime picker
+  package_url: https://www.npmjs.com/flatpickr
+  version: 4.6.13
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18509/default_4bc4a0119551229373100e6d6a9dee9c56ba0734.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/package-lock.json
+  detection_source: packages/evershop/package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2021-12-03 13:48:05.000000000 Z
+- name: fs-extra
+  description: Fs-extra contains methods that aren't included in the vanilla Node.js
+    fs package
+  package_url: https://www.npmjs.com/fs-extra
+  version: 9.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15836/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/package-lock.json
+  detection_source: packages/create-evershop-app/package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2022-12-21 01:46:44.000000000 Z
+- name: graphql-tag
+  description: A JavaScript template literal tag that parses GraphQL queries
+  package_url: https://www.npmjs.com/graphql-tag
+  version: 2.12.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16631/default_e654289254bcb9b55e3dca992739e962dc0c7297.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/package-lock.json
+  detection_source: packages/evershop/package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2023-09-15 10:13:56.000000000 Z
+- name: graphql-type-json
+  description: JSON scalar types for GraphQL.js
+  package_url: https://www.npmjs.com/graphql-type-json
+  version: 0.3.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18717/default_5ff3c2909e9193c1059b9d7c259b01b31dca9aea.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/package-lock.json
+  detection_source: packages/evershop/package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2023-09-15 10:13:56.000000000 Z
+- name: html-entities
+  description: Faster HTML entities encode/decode library
+  package_url: https://www.npmjs.com/html-entities
+  version: 2.3.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17291/default_116e98e237458e603feb81cfbf628c00544be692.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/package-lock.json
+  detection_source: packages/evershop/package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2023-02-25 08:43:31.000000000 Z
+- name: html-webpack-plugin
+  description: Simplifies creation of HTML files to serve your webpack bundles
+  package_url: https://www.npmjs.com/html-webpack-plugin
+  version: 5.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15841/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/package-lock.json
+  detection_source: packages/evershop/package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2023-04-26 02:31:26.000000000 Z
+- name: husky
+  description: Prevents bad commit or push
+  package_url: https://www.npmjs.com/husky
+  version: 8.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15831/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2023-08-31 01:53:22.000000000 Z
+- name: immer
+  description: Create your next immutable state by mutating the current one
+  package_url: https://www.npmjs.com/immer
+  version: 9.0.14
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16937/default_7b9968788548874538c601457e8dcd9c74bd2051.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/package-lock.json
+  detection_source: packages/evershop/package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2023-06-19 15:42:01.000000000 Z
+- name: jsesc
+  description: Given some data
+  package_url: https://www.npmjs.com/jsesc
+  version: 2.5.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17662/default_894a45ad01fa93ac472db719cb1ef1b89f2924f0.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/package-lock.json
+  detection_source: packages/evershop/package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2023-07-30 09:28:56.000000000 Z
+- name: json5
+  description: JSON for humans
+  package_url: https://www.npmjs.com/json5
+  version: 2.2.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16645/default_783b9b6c17b863f264c1418b0eb831316f741afd.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/package-lock.json
+  detection_source: packages/evershop/package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2023-09-15 10:13:56.000000000 Z
+- name: mini-css-extract-plugin
+  description: Extracts CSS into separate files
+  package_url: https://www.npmjs.com/mini-css-extract-plugin
+  version: 2.6.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15992/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/package-lock.json
+  detection_source: packages/evershop/package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2023-08-25 17:02:24.000000000 Z
+- name: multer
+  description: Middleware for handling `multipart/form-data`
+  package_url: https://www.npmjs.com/multer
+  version: 1.4.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16421/default_23e0dabcd0197f0c1f0a41268f8ca3f7e8b1f1e2.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/package-lock.json
+  detection_source: packages/evershop/package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2021-12-03 13:48:05.000000000 Z
+- name: npm
+  description: A package manager for JavaScript
+  package_url: https://www.npmjs.com/npm
+  version: 8.18.0
+  license: Artistic-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16105/default_5a461d436012a0c4024534aaba303dcdb0297d24.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/package-lock.json
+  detection_source: packages/evershop/package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2021-12-03 13:48:05.000000000 Z
+- name: pg
+  description: PostgreSQL client - pure javascript &amp; libpq with the same API
+  package_url: https://www.npmjs.com/pg
+  version: 8.11.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16197/default_3d197518f6bb529bfcc1b685e2cefbdfe83ff108.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/package-lock.json
+  detection_source: packages/evershop/package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2021-12-03 13:48:05.000000000 Z
+- name: prop-types
+  description: Runtime type checking for React props and similar objects
+  package_url: https://www.npmjs.com/prop-types
+  version: 15.8.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15843/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/package-lock.json
+  detection_source: packages/evershop/package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2023-09-15 10:13:56.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 17.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/package-lock.json
+  detection_source: packages/evershop/package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2023-06-19 15:42:01.000000000 Z
+- name: react-select
+  description: A Select control built with and for ReactJS
+  package_url: https://www.npmjs.com/react-select
+  version: 5.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16452/default_d634bba6819a28b85a138b7ded782cadbfa6a482.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/package-lock.json
+  detection_source: packages/evershop/package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2023-06-19 15:42:01.000000000 Z
+- name: react-toastify
+  description: React notification made easy
+  package_url: https://www.npmjs.com/react-toastify
+  version: 6.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18461/default_5ff724c0ff89bb42698aa80ef3403008cb0d8f72.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/package-lock.json
+  detection_source: packages/evershop/package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2023-06-19 15:42:01.000000000 Z
+- name: reflect-metadata
+  description: Polyfill for Metadata Reflection API
+  package_url: https://www.npmjs.com/reflect-metadata
+  version: 0.1.13
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16019/default_7a88bebb451873cc63bd99007de5bd3bb8ef85de.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2022-07-29 00:29:30.000000000 Z
+- name: rimraf
+  description: A deep deletion module for node
+  package_url: https://www.npmjs.com/rimraf
+  version: 3.0.2
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15807/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2022-07-29 00:29:30.000000000 Z
+- name: sass-loader
+  description: Sass loader for webpack
+  package_url: https://www.npmjs.com/sass-loader
+  version: 13.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15842/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/package-lock.json
+  detection_source: packages/evershop/package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2022-09-06 17:07:00.000000000 Z
+- name: serve-static
+  description: Serve static files
+  package_url: https://www.npmjs.com/serve-static
+  version: 1.15.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16295/default_f04d39fc656c2e32ee1b9d3875a3002459aa3b69.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/package-lock.json
+  detection_source: packages/evershop/package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2023-02-11 17:35:07.000000000 Z
+- name: style-loader
+  description: Style loader module for webpack
+  package_url: https://www.npmjs.com/style-loader
+  version: 3.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15822/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/package-lock.json
+  detection_source: packages/evershop/package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2022-09-06 17:07:00.000000000 Z
+- name: tailwindcss
+  description: A utility-first CSS framework for rapidly building custom user interfaces
+  package_url: https://www.npmjs.com/tailwindcss
+  version: 3.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17398/default_2cd7ed1c123f2fca074a6f4b16c4e73d5bfe82be.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2022-10-27 05:26:05.000000000 Z
+- name: terser-webpack-plugin
+  description: Terser plugin for webpack
+  package_url: https://www.npmjs.com/terser-webpack-plugin
+  version: 5.3.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16143/default_def3edb85d7fbd20200a5cd7d0a1679e31bc8b3d.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/package-lock.json
+  detection_source: packages/evershop/package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2023-04-26 02:31:26.000000000 Z
+- name: touch
+  description: Like touch
+  package_url: https://www.npmjs.com/touch
+  version: 3.1.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17029/default_8ef738cb63f629c8e87903029b82b45840ab75a3.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/package-lock.json
+  detection_source: packages/evershop/package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2022-09-04 15:39:25.000000000 Z
+- name: uniqid
+  description: Unique ID Generator
+  package_url: https://www.npmjs.com/uniqid
+  version: 5.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17929/default_e0b07170ab7d7ea66954ff35fdeaae5255c4c0aa.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/package-lock.json
+  detection_source: packages/evershop/package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2021-12-03 13:48:05.000000000 Z
+- name: uuid
+  description: RFC4122
+  package_url: https://www.npmjs.com/uuid
+  version: 8.3.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15916/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/package-lock.json
+  detection_source: packages/evershop/package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2022-09-22 02:25:26.000000000 Z
+- name: validate-npm-package-name
+  description: Give me a string and I'll tell you if it's a valid npm package name
+  package_url: https://www.npmjs.com/validate-npm-package-name
+  version: 4.0.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16712/default_5ea3918e441555ef1fd413f4100fe15fe23b366f.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/package-lock.json
+  detection_source: packages/create-evershop-app/package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2022-10-16 10:01:29.000000000 Z
+- name: webpack-bundle-analyzer
+  description: Webpack plugin and CLI utility that represents bundle content as convenient
+    interactive zoomable treemap
+  package_url: https://www.npmjs.com/webpack-bundle-analyzer
+  version: 4.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15991/default_cbd6c289400672b291755183817e9dd6abe1a612.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2022-08-16 08:27:46.000000000 Z
+- name: webpack-hot-middleware
+  description: Webpack hot reloading you can attach to your own server
+  package_url: https://www.npmjs.com/webpack-hot-middleware
+  version: 2.25.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16052/default_261820f5687b4c88a3e8f95c71b5e8dccd34c1d7.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/package-lock.json
+  detection_source: packages/evershop/package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2023-04-26 02:31:26.000000000 Z
+- name: webpackbar
+  description: Elegant ProgressBar and Profiler for Webpack
+  package_url: https://www.npmjs.com/webpackbar
+  version: 5.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17969/default_72dbba22ca96f25f78f55f8ea5393222efca5494.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/package-lock.json
+  detection_source: packages/evershop/package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2023-04-26 02:31:26.000000000 Z
+- name: winston
+  description: A logger for just about everything
+  package_url: https://www.npmjs.com/winston
+  version: 3.7.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16003/default_261820f5687b4c88a3e8f95c71b5e8dccd34c1d7.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/package-lock.json
+  detection_source: packages/evershop/package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2021-12-07 10:09:41.000000000 Z
+- name: yargs
+  description: Yargs the modern, pirate-themed, successor to optimist
+  package_url: https://www.npmjs.com/yargs
+  version: 17.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15887/default_3af1504b6f77c55205ba630fe08c472f43b95f6e.png
+  detection_source_url: https://github.com/minhnguyen311/evershop/blob/main/package-lock.json
+  detection_source: packages/evershop/package.json
+  last_updated_by: The Nguyen
+  last_updated_on: 2022-11-04 07:27:16.000000000 Z
